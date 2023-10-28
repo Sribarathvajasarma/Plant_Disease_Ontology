@@ -1,0 +1,454 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#"
+     xml:base="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Plant_Disease_ontology="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitHalo -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitHalo">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitHaloColor -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitHaloColor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitSymptom -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitSymptom">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitSymptomColor -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitSymptomColor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitSymptomShape -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFruitSymptomShape">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFungusSymptom -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFungusSymptom">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFungusSymptomColor -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasFungusSymptomColor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafHalo -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafHalo">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafHaloColor -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafHaloColor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafSymptom -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafSymptom">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafSymptomColor -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafSymptomColor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafSymptomShape -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasLeafSymptomShape">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasStemSymptom -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasStemSymptom">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasStemSymptomColor -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasStemSymptomColor">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasStemSymptomShape -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#hasStemSymptomShape">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#shape -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#shape"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#stage -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#stage"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#BacterialSpot -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#BacterialSpot">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+        <hasFruitHalo rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fruit_Halo_Symptom"/>
+        <hasFruitHaloColor rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Yellow"/>
+        <hasFruitSymptom rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Spot_symptom"/>
+        <hasFruitSymptomColor rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Brown"/>
+        <hasLeafSymptom rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Spot_symptom"/>
+        <hasLeafSymptomColor rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Yellow"/>
+        <hasStemSymptom rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Spot_symptom"/>
+        <hasStemSymptomColor rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Brown"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Black -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Black">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#BlackMold -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#BlackMold">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Brown -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Brown">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Concentric_rings -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Concentric_rings">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#EarlyBlight -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#EarlyBlight">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fruit_Halo_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fruit_Halo_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fruit_symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fruit_symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fungus_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Fungus_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Gray -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Gray">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#GraySpot -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#GraySpot">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#LateBlight -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#LateBlight">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#LeafMold -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#LeafMold">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Leaf_Halo_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Leaf_Halo_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Leaf_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Leaf_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Lesion_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Lesion_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#No_Color -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#No_Color">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#No_Shape -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#No_Shape">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#shape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#No_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#No_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#PowderyMildew -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#PowderyMildew">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#SeptoriaLeafSpot -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#SeptoriaLeafSpot">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#SpiderMite -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#SpiderMite">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Spot_symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Spot_symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Stem_Symptom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Stem_Symptom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#TargetSpot -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#TargetSpot">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#TomatoLeafCurlVirus -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#TomatoLeafCurlVirus">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#TomatoMosaicVirus -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#TomatoMosaicVirus">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#White -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#White">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Yellow -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#Yellow">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/Sribarathvajasarma/Plant_Disease_Ontology/main/Plant_Disease_ontology.owl#color"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
